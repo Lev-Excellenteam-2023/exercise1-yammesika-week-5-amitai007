@@ -17,3 +17,11 @@ def extract_secret_messages(filename):
 
 
 # endregion
+
+def main():
+    filename = "resources/logo.jpg"
+    for message in extract_secret_messages(filename):
+        print(message)
+
+if name == "main":
+    main()
